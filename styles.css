@@ -1,0 +1,73 @@
+.navbar-container {
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    justify-content: center;
+}
+
+.navbar-item {
+    display: flex,
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.logo-item {
+    display: flex;
+    flex: 2;
+}
+.projects-container{
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-container div {
+    width: 100px;
+    height: 100px;
+}
+
+.project-item {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    justify-content: center;
+}
+
+
+.skills-container {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.skills-item,.autobiography-item{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.footer-container{
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    align-items: center;
+}
+
+.mail-item,.detail-item{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.center{
+    text-align: center;
+}
