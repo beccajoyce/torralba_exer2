@@ -3,7 +3,6 @@
 .navbar-container {
     display: flex;
     justify-content: left;
-    margin: 0px;
 }
 
 .navbar-item {
@@ -114,6 +113,7 @@ p, a {
 
 body{
     background-color: #FDF5DF;
+    font-family: "Arial";
 }
 
 
