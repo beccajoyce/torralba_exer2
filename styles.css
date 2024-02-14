@@ -117,12 +117,10 @@ body{
 }
 
 
-a:visited{
-    color: black;
-}
 
 #link{
     text-decoration: none;
+    color: black;
 }
 
 #back {
