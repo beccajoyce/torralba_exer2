@@ -7,29 +7,30 @@
   </head>
 
   <body>
-    <div class = "navbar-container" id = "top">
-        <div class="navbar-item" >
+    <div class = "navbar-container">
+        <div class="navbar-item" id = "top">
             <img src = "images/logo.jpg" alt = "Logo" class = "logo">
         </div>
         <div class="navbar-item">
-            <h3>Home</h3>
+            <a href="#profile" id = "link"><h3>Home</h3></a>
         </div>
         <div class="navbar-item">
-            <h3>My Projects</h3>
+           <a href="#projects" id = "link"><h3>Previous Projects</h3></a>
         </div>
         <div class="navbar-item">
-            <h3>About Me</h3>
+            <a href = "#skills" id = "link"><h3>About Me</h3></a>
         </div>
         </div>
     </div> <!--Logo and Navbar-->
+   
     <hr>
     <br>
-    <div class = "profile-picture">
+    <div class = "profile-picture" id = "profile">
         <img src = "images/profilepicture.jpg" alt = "Profile Picture" class = "profile-pic">
     </div> <!--Profile Picture-->
 
     <br>
-    <h1 class = "center">My Projects</h1>
+    <h1 class = "center" id = "projects">Previous Projects</h1>
     <div class = "projects-container">
         <div class="project-item" style="flex: 3;">
             <img src = "images/farm.png" alt = "Farm Game" class = "farm">
@@ -52,15 +53,25 @@
     <br>
     <br>
     <br>
-
-    <div class = "skills-container">
+    
+    <div class = "skills-container" id = "skills">
         <div class="skills-item" style="flex: 5;">
             <h3 class = "center">Skills</h3>
-            <p class = "center">hfhifhiheifhie</p>
+            <ul>
+                <li>I can speak English, Filipino, and basic Japanese </li>
+                <li>I know how to code in JavaScript, Python, and C </li>
+                <li>I have leadership skills</li>
+                 
+            </ul>
         </div>
         <div class="autobiography-item" style="flex: 5;">
             <h3 class = "center">Autobiography</h3>
-            <p class = "center">hfhifhiheifhie</p>
+            <ul>
+                <li>Name: Rebecca Torralba </li>
+                <li>Degree Program: BS Computer Science </li>
+                <li>Interest: Reading Books</li>
+                 
+            </ul>
         </div>
         </div>
     
@@ -79,7 +90,7 @@
             <p>Address: Batasan Hills, Quezon City</p>
             <p>Contact Number: 0945774775</p>
             <p>Copyright Information</p>
-            <a href=”top”> Back to Top </a>
+            <a href="#" id = "back"> Back to Top </a>
         
         </div>
         
